@@ -1,0 +1,168 @@
+body {
+  font-family: Georgia, serif;
+  margin: 0;
+  padding: 0;
+  background-color: #E7C6FF;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100%;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+}
+
+h1.Logo {
+  margin-right: 20px;
+  color: #512260;
+  font-size: 40px;
+  background-color: #c197d2;
+  padding: 10px 15px;
+  border-radius: 5px;
+}
+
+h2.Name {
+  color: #512260;
+  font-size: 50px;
+}
+
+.search-bar {
+  background-color: #c197d2;
+  padding: 15px 70px;
+  border-radius: 5px;
+  color: #ffffff;
+}
+
+nav {
+  background-color: #c197d2;
+  padding: 10px 0;
+  border-radius: 5px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+}
+
+nav ul li {
+  margin: 0 15px;
+  padding: 10px 15px;
+  background-color: #d4b2e4;
+  border-radius: 5px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff4fb;
+  font-size: 20px;
+  
+}
+
+main {
+  display: flex;
+  flex: 1;
+  padding: 20px;
+}
+
+.news {
+  max-width: 400px;
+  flex: 2;
+  margin-right: 20px;
+  text-align: center;
+  background-color: #c197d2;
+  align-items: center;
+  color: #fff4fb;
+  font-size: 20px;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.news-content{
+  background-color: #d4b2e4;
+  padding: 20px;
+  border-radius: 5px;
+  margin-top: 20px;
+  height: 500px;
+}
+
+.news img {
+  max-width: 500px;
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.news h2{
+  font-size: 40px;
+}
+.reviews {
+  flex: 2;
+  display: flex; 
+  background-color: #c197d2;
+  color: #fff4fb;
+  text-align: center;
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+.reviews div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.reviews img {
+  max-width: 600px;
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  display: inline-block;
+}
+
+.reviews h2{
+  font-size: 40px;
+}
+
+footer {
+  background-color: #c197d2;
+  padding: 10px;
+  text-align: center;
+}
+
+footer ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+footer ul li {
+  margin: 0 15px;
+}
+
+footer ul li a {
+  text-decoration: none;
+  color: #512260;
+  font-size: 20px;
+}
